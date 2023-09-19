@@ -6,3 +6,8 @@ PA1.o: PA1.c
 
 getTokens.o: getTokens.c getTokens.h
 	gcc -c getTokens.c
+
+clean:
+	rm *.o PA1
+
+all: PA1
